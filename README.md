@@ -21,3 +21,5 @@ Our product, a special pair of gloves that detect hand movement, aims to facilit
 2.	To put theory into practice: 3 prototypes should be realized.
 3.	To figure out the most intuitive user interface and enhance the appearance of the product. 
 
+### Structure
+![Image](Structure.PNG)
