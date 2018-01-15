@@ -23,3 +23,6 @@ Our product, a special pair of gloves that detect hand movement, aims to facilit
 
 ### Structure
 ![Image](Structure.PNG)
+
+### Data Flow
+![Image](Data_Flow.PNG)
