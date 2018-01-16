@@ -1,5 +1,11 @@
 # Progress
 
+[Home](https://wilsonwang881.github.io/Glovoice/)
+
+[Progress](https://wilsonwang881.github.io/Glovoice/Progress.html)
+
+[About Us](https://wilsonwang881.github.io/Glovoice/About_Us.html)
+
 ## 2017
 
 ### 1.12 Sensors for testing purchased
