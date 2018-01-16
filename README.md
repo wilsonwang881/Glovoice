@@ -2,6 +2,8 @@
 
 The project is about a pair of gloves that helps sign language users communicate smoothly with those who can speak, aiming at breaking the boundaries between the deaf and hearing people. Its main function is to display the translated sign language in words on a screen via an app or website.
 
+[Home](https://wilsonwang881.github.io/Glovoice/)
+
 [Progress](https://wilsonwang881.github.io/Glovoice/Progress.html)
 
 [About Us](https://wilsonwang881.github.io/Glovoice/About_Us.html)
