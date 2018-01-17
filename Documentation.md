@@ -18,7 +18,7 @@
     4. [Server Software](#Server-Software)
     5. [Database Software](#Database-Software)
 
-# Gloves
+# Gloves <a name="Data-Collection"></a>
 
 ## Data Collection
 
@@ -125,7 +125,7 @@ The server software can communicate with the device that is sending the parsed/p
 
   OOP features are used. Just to make the code easy to analyse and upgrade.
 
-## Database Software
+## Database Software <a name="Database-Software"></a>
 
 Note here that we want to run the server-side program and the database on the same rented server, just for decreasing the delay caused by the communication with the server and the database.
 
