@@ -4,7 +4,11 @@
 
 ### 1.12 Sensors for testing purchased
 
+### 1.15 Project website launched
+
 ### 1.16 Started testing the gyroscope/accelerometer
+
+### 1.17 Started working on the server software
 
 ## 2016
 
