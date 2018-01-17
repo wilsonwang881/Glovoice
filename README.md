@@ -1,8 +1,9 @@
 # Project Glovoice
+<image src="IMG-20180117-WA0000.jpg" width="300" height="300" align="right" />
 
 The project is about a pair of gloves that helps sign language users communicate smoothly with those who can speak, aiming at breaking the boundaries between the deaf and hearing people. Its main function is to display the translated sign language in words on a screen via an app or website.
 
-![Image](IMG-20180117-WA0000.jpg)
+
 
 ## Problem Statement
 
