@@ -111,7 +111,7 @@ Select a web service provider, i.e. Microsoft Azure, Amazon Web Services, Google
 
   Choose a language and write the server-side program which will control the data flow and communicate with the database
 
-## Server Software <a name="Server Software"></a>
+## Server Software <a name="Server-Software"></a>
 
 The server software can communicate with the device that is sending the parsed/partially processed information via Internet. The server can receiving income information and sending the fully processed information back to the device.
 
@@ -124,8 +124,9 @@ The server software can communicate with the device that is sending the parsed/p
   The data delivered to the user app are in a parsed form, i.e. HTML file or other forms if applicable.
 
   OOP features are used. Just to make the code easy to analyse and upgrade.
-
-## Database Software <a name="Database-Software"></a>
+  
+<a name="Database-Software"></a>
+## Database Software 
 
 Note here that we want to run the server-side program and the database on the same rented server, just for decreasing the delay caused by the communication with the server and the database.
 
