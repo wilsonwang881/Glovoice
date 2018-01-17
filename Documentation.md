@@ -18,9 +18,11 @@
     4. [Server Software](#Server-Software)
     5. [Database Software](#Database-Software)
 
-# Gloves <a name="Data-Collection"></a>
+<a name="Gloves"></a>
+# Gloves 
 
-## Data Collection <a name="Data-Collection"></a>
+<a name="Data-Collection"></a>
+## Data Collection 
 
 One idea is to use cameras to track the colored dots on gloves and interpret by image processing while it is severely affected by poor lighting conditions. It also involves too much about image processing which is far beyond our scope hence it is abandoned.
 
@@ -39,7 +41,8 @@ One idea is to use cameras to track the colored dots on gloves and interpret by 
   No specific data about sensitivity about the flex sensor because its sensitivity is not determined by itself but how the overall circuit is designed. The circuit would bring errors. Output voltage would be an
   analogue signal as shown in Figure 1. The analogue signal would be fed into the analogue pin of a microcontroller and converted to digital signal inside the microcontroller.
   
-## Data Transmission <a name="Data-Transmission"></a>
+<a name="Data-Transmission"></a>
+## Data Transmission 
 
 The communication between the sensors and the microcontroller can be done using SPI or I2C interface. Both of them allow short-distance data transmission in serial form and are commonly used in commercial products. The main difference between SPI and I2C is the relationship between the master devices and the slave devices.
 
@@ -51,39 +54,48 @@ The communication between the sensors and the microcontroller can be done using 
 
   Either Bluetooth or WiFi requires different hardware: we can use ESP8266 for WiFi and HC05 for Bluetooth. The specific power consumption rate is to be found in real tests. That is, we are going to test on using both Bluetooth and WiFi and choose the one with lower power consumption as well as satisfying the required data transmissions speed.
 
-## Power Supply <a name="Power-Supply"></a>
+<a name="Power-Supply"></a>
+## Power Supply 
 
 A rechargeable Lithium ion 3.3V battery is preferred and available whose cost is £10. The cost is acceptable.
 
-## Gloves <a name="Gloves2"></a>
+<a name="Gloves2"></a>
+## Gloves 
 
 Gloves should always be normal gloves. The choice of colours would be decided by doing target customer surveys. There would be three sizes available small, 9 inches (22.86cm), medium, 10 inches(25.40cm) and large, 12 inches(30.48cm). Specific size of gloves can be produced if there would be special needs. Material used for the gloves could be cotton as cotton is comfortable and a good breathable  material, thus reduces hand perspiration when wearing the gloves.
 
   A PCB with a microcontroller is attached on the wrist connected with each sensor by wires. All of electronic components are fixed on a plastic layer which can be attached or detached from the pair of gloves by Velcro which is the material in Figure 2. Regular cleaning can be conducted by users without going to a professional.
 
-# User App <a name="User-App"></a>
+<a name="User-App"></a>
+# User App 
 
 The user app has four parts:receiving data from hardware, communicating processed data with the server, encryption/decryption when transmitting data over the Internet, GUI. In the early stage of development, a C++/Python will be used and will migrate to Android/iOS app in later stages.
 
-## Receiving <a name="Receiving"></a>
+<a name="Receiving"></a>
+## Receiving 
 
 The first part is to reveice real-time data from the hardware. Data will be sent from the Arduino in vector or matrix via Bluetooth or WiFi, depending on the hardware choice. Then, the user app will standardize the raw data received into different blocks, which depends on the gesture done by the user. This standardization is relevant since it simplifies the retrieving algorithm and speeds up the retrieving process.
 
-## Sending <a name="Sending"></a>
+<a name="Sending"></a>
+## Sending 
 
 The second part handles the communication with the database. Blocks of data, previously divided, will be sent to the database so it can be processed by algorithms which will remove the unwanted noise and match with the corresponding word. Once data has been processed they will be sent back in the form of words.
 
-## Security <a name="Security"></a>
+<a name="Security"></a>
+## Security 
 
 The third part ensures secure transmission and prevents information being leaked by malicious attacks. Popular encryption algorithms can be grouped into being symmetric and asymmetric. Symmetric algorithms include DES, 3DES and AES. Asymmetric algorithms include DSA, RSA and X25519 key exchange.
 
-## GUI <a name="GUI"></a>
+<a name="GUI"></a>
+## GUI 
 
   The last part, will feed the word obtained from the server into a GUI. This interface will visualize and vocalize the received words. It can be implemented in three ways; in Python using the TkInter library under x86 platform, Android/iOS app under smart device environment. The smart device apps (i.e. Android and iOS app) are more socially appreciated since according to data, both operating systems account for a combined of 99.1% of the worldwide smartphone OS market.
 
-# Server <a name="Server"></a>
+<a name="Server"></a>
+# Server 
 
-## Why not Hosting Our Own Server? <a name="Why-not-Hosting-Our-Own-Server?"></a>
+<a name="Why-not-Hosting-Our-Own-Server?"></a>
+## Why not Hosting Our Own Server? 
 
 A professional server needs reliable firewall, i.e. anti-DDoS
 
@@ -97,7 +109,8 @@ A professional server needs reliable firewall, i.e. anti-DDoS
 
   Microsoft, Amazon, Google and Aliyun operate dedicated/virtual server rental on a large-scale hence the cost is a lot lower.
 
-## Web Service Provider <a name="Web-Service-Provider"></a>
+<a name="Web-Service-Provider"></a>
+## Web Service Provider 
 
 Select a web service provider, i.e. Microsoft Azure, Amazon Web Services, Google Cloud Platform, Aliyun, etc.
 
@@ -107,11 +120,13 @@ Select a web service provider, i.e. Microsoft Azure, Amazon Web Services, Google
 
   Also, different providers’ offers vary in terms of available services, i.e. availability of certain kinds of dynamic web application deployment, which enables us to minimize the cost.
 
-## Choose a Language <a name="Choose-a-Language"></a>
+<a name="Choose-a-Language"></a>
+## Choose a Language 
 
   Choose a language and write the server-side program which will control the data flow and communicate with the database
 
-## Server Software <a name="Server-Software"></a>
+<a name="Server-Software"></a>
+## Server Software 
 
 The server software can communicate with the device that is sending the parsed/partially processed information via Internet. The server can receiving income information and sending the fully processed information back to the device.
 
