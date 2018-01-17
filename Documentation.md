@@ -17,6 +17,7 @@
     3. [Choose a Language](#Choose-a-Language)
     4. [Server Software](#Server-Software)
     5. [Database Software](#Database-Software)
+4. [Discussion and Next Steps](#Discussion-and-Next-Steps)
 
 <a name="Gloves"></a>
 # Gloves 
@@ -159,3 +160,28 @@ Note here that we want to run the server-side program and the database on the sa
   Reliability, i.e. are there lots of people who are currently using the software? Is there a huge community that maintains and provides help for the database software.
   
   Ease to use, i.e. is it hard to write program that will operate on the database? When writing the server software, are there any drivers needed for communicating, i.e. if we are using Java for the server software and Microsoft SQL Server on the server, additional driver is needed, either provided by third party communities/personnel, or officially by Oracle or Microsoft. Using such kind of additional software may/may not add the level difficulty to the development/implementation.
+  
+<a name="Discussion-and-Next-Steps"></a>
+# Discussion and Next Steps
+
+For this ambitious project to become a reality, it is necessary to have clear plan for the deliverables. Moreover, to be able to implement our ideas the three main subsystems’ groups (i.e. hardware, the user app and the server) will have to cooperate to achieve a common goal: solve the communication problem with the mute and deaf people.
+
+
+  The first thing the team will start working on is the hardware construction, including sensors and the circuitry. The hardware narrows down the rage of the forms of the data which are going to be tramsmitted. It is very important to have this done first so the group working on the user app for interaction, which further helps with the data encryption design.
+
+
+  While the hardware team is busy, the server team alongside with the user app team will develop a plan for the algorithm used to find the words and a method for parsing and decrypting data. The three teams shall work in a parallel way instead of in a sequential order.
+
+
+  Once the sensors and circuitry are finished, the hardware team will continue with the Wi-Fi/Bluetooth transmission programming. This deliverable will need the cooperation of the user app team, which will work in parallel to program the encryption of the data sent by the microcontroller. Meanwhile, the server team will start working on the database and the server application.
+
+
+  The last thing the hardware team will have to focus on is the appearance. At this stage, the aim is to make the product appealing to the eyes of the customers while being reliable. This, will be done by designing a flexible PCB containing only the essential parts of the microcontroller used during the testing.
+
+
+  The last step for the software team will be the design of a Graphical User Interface by means of a phone app displaying both written and verbal translation.
+
+
+  The server team will ultimately make an executable package for the server software.
+
+  Our first objective for the project is to be able to recognize simple patterns which just depend on the fingers position. Once these types of words are covered we will proceed to our second objective, which includes a gyroscope in the design, enabling the user to distinguish between different space movements involving the whole hand.
