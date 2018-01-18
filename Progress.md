@@ -1,6 +1,6 @@
 # Progress
 
-## 2017
+## 2018
 
 ### 1.12 Sensors for testing purchased
 
@@ -10,7 +10,8 @@
 
 ### 1.17 Started working on the server software
 
-## 2016
+
+## 2017
 
 ### 10.22 Proposal finished
 
