@@ -2,9 +2,6 @@
 
 The project is about a pair of gloves that helps sign language users communicate smoothly with those who can speak, aiming at breaking the boundaries between the deaf and hearing people. Its main function is to display the translated sign language in words on a screen via an app or website.
 
-<image src="IMG-20180117-WA0000.jpg" width="300" height="300" />
-<image src="100_100px.png" />
-
 ## Problem Statement
 
 Speaking and hearing, two of the most fundamental capabilities that a person may possess, can cast quite a problem for the physically challenged --- the mute and the deaf. In this technologically-fuelled era, there are many ways for those people to express their thoughts or feelings, i.e. by writing notes, emails and communicating via the social media, which of course is rather slow due to communication delays. Another means of communication would be by using the sign language. This, however, can pose a problem to these people of different nationalities, as different countries may have different sign languages.
