@@ -10,6 +10,8 @@
 
 ### 1.17 Started working on the server software
 
+### 1.18 Started working on the client software
+
 
 ## 2017
 
