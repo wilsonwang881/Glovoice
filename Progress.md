@@ -12,6 +12,8 @@
 
 ### 1.18 Started working on the client software
 
+### 1.24 Started working on the Bluetooth module
+
 
 ## 2017
 
