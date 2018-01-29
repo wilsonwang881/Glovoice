@@ -14,11 +14,21 @@
 
 ### 1.24 Started working on the Bluetooth module
 
+### 1.26 Started working on the GUI of the client software
+
+### 1.27 Flex sensor could send data via Bluetooth to the client software
+
 
 ## 2017
 
+### 10.15 Started working on the proposal
+
 ### 10.22 Proposal finished
 
+### 11.10 Started working on the Product Design Specification
+
 ### 11.24 Product Design Specification finished
+
+### 12.2 Started working on the report
 
 ### 12.17 Report finished
