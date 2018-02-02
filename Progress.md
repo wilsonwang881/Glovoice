@@ -18,6 +18,10 @@
 
 ### 1.27 Flex sensor could send data via Bluetooth to the client software
 
+### 2.1 Ordered more sensors
+
+### 2.2 Draft code of GUI received
+
 
 ## 2017
 
