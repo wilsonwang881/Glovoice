@@ -22,6 +22,9 @@
 
 ### 2.2 Draft code of GUI received
 
+### 2.5 Working on how the information from sensors can be represented
+
+### 2.7 Can send data from 5 flex sensors from Arduino via Bluetooth to client software
 
 ## 2017
 
