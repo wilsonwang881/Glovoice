@@ -1,13 +1,17 @@
 import serial
 import time
+import Client
+
 # -*- coding: utf-8 -*-
 
 # # Serial port parameters
-serial_speed = 9600
+serial_speed = 115200
 serial_port = '/dev/tty.HC-06-DevB' # bluetooth shield hc-06
 
 
 if __name__ == '__main__':
+
+    file = open("capture.txt","w")#declare txt
     
     print ("conecting to serial port ...")
     ser = serial.Serial(serial_port, serial_speed, timeout=1)
@@ -16,15 +20,21 @@ if __name__ == '__main__':
     #ser.write(one)
 
     print ("recieving message from arduino ...")
-    ser.flushInput()
+    #ser.flushInput()
+
+    
+
+    
 	
-    while(1):
-        ser.flushInput()
+    for i in range(100):
+        #ser.flushInput()
         data = ser.readline()
-        #ser.write(b'200')
         
-        print(data)
-        time.sleep(0.05)
+        #print(data)
+        file.write(data.decode("utf-8"))
+        
+        #time.sleep(0.05)
 	    
-        
+    file.close()
+    print(data)
     print ("finish program and close connection!")
