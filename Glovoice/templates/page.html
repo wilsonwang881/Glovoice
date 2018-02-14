@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset='UTF-8'/>
+   <title>Glovoice Interface</title>
+   <link rel='stylesheet' href="{{ url_for('static', filename='css/styles.css') }}"/>
+ </head>
+ <body>
+
+<div style='page'>
+
+   <img class='logo' src="{{ url_for('static', filename='pics/logo.png')}}" alt='Glovoice Logo'/>
+
+   <p class='text'>IP Address</p>
+
+<div class='form'>
+<form method='POST'>
+   <input class='io' type='text' name='ip-address'/>
+</form>
+</div>
+
+<div class='form'>
+<form method='POST'>
+   <input class='io' type='text' name='data-in'/>
+</form>
+</div>
+
+   <p class='text'>Status</p>
+
+   <div class='form'>
+      <p class='io' type='text' name='output-status'>{{out_status}}</p>
+   </div>
+
+   <p class='texto'>Output Word</p>
+
+<div class='form'>
+   <p class='out' type='text' name='output-word'>{{out_word}}</p>
+</div>
+
+</div>
+
+</div>
+
+  </body>
+</html>
