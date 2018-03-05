@@ -26,6 +26,16 @@
 
 ### 2.7 Can send data from 5 flex sensors from Arduino via Bluetooth to client software
 
+### 2.14 Working on using TensorFlow for machine learning
+
+### 2.20 Models trained using machine learning now can identify several gestures with accuracy of 97%
+
+### 2.24 Ordered 3 more flex sensors
+
+### 2.26 Working on sewing sensors onto the gloves
+
+### 3.4 Added the gyroscope for machine learning
+
 ## 2017
 
 ### 10.15 Started working on the proposal
