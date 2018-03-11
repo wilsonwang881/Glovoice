@@ -36,6 +36,16 @@
 
 ### 3.4 Added the gyroscope for machine learning
 
+### 3.5 Testing the battery unit and finishing sewing the sensors
+
+### 3.6 Adjusting the maching learning model
+
+### 3.7 Working on server software and web interface
+
+### 3.8 Working on gestures with different directions but same hand shapes
+
+### 3.9 Working on integrating all sub-units
+
 ## 2017
 
 ### 10.15 Started working on the proposal
