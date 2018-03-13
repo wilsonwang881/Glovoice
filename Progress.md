@@ -46,6 +46,8 @@
 
 ### 3.9 Working on integrating all sub-units
 
+### 3.12 Working on improving the accuracy of the response
+
 ## 2017
 
 ### 10.15 Started working on the proposal
