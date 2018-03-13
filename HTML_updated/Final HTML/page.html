@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <meta charset='UTF-8'/>
+
+  <title>Glovoice Interface</title>
+
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+
+  <script type="text/javascript" src="{{ url_for('static', filename = 'index.js') }}"></script>
+
+  <!--link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main.css') }}"-->
+  <link rel= "stylesheet" type= "text/css" href= "stylesheet.css">
+
+</head>
+
+<body>
+
+  <div style="page">
+
+    <!--img src="{{url_for('static', filename='pics/logo.png')}}" /-->
+    <img class='logo' src="logo.png"/>
+
+    <h1 class='status-text' >Server Status</h1>
+
+    <h2 class='status' id='server_status'>Loading</h2>
+
+    <button class='button' id="button_click">Increment</button>
+
+    <h2 class='trans'>Translated Text</h2>
+
+    <p class='out-text'>Console Output</p>
+
+    <div id='scroll_list'>
+
+       <p class='out' type='text' name='output-word' id='scroll_list_start'></p>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
