@@ -48,6 +48,10 @@
 
 ### 3.12 Working on improving the accuracy of the response
 
+### 3.15 Website GUI finished and deployed
+
+### 3.16 Project finished
+
 ## 2017
 
 ### 10.15 Started working on the proposal
